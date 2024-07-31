@@ -129,7 +129,7 @@
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100PX;
-
+    height: 100%;
 }
 .headbrand{
     font-size: 30px;
@@ -326,7 +326,9 @@
 }
 .shop-product{
     margin: 50px 100px;
-    padding:20px
+    padding:20px;
+    height: 100%;
+    
 }
 .head-product{
     font-size: 30px;
@@ -334,7 +336,7 @@
 }
 .shop-items{
     width: 1300px;
-    height: 1000px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
@@ -351,4 +353,94 @@ margin-right: 2px;
 .cart-price{
     display: flex;
     justify-content: space-between;
+}
+.viewcon{
+    text-align: center;
+    margin-top: 50px;
+}
+.viewbtn{
+    display:inline-block;
+    background: transparent;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 10px 32px;
+    transition: all .6s;
+    border-radius: 30px;
+}
+.viewbtn:hover{
+    background: black;
+    border: 1px solid black;
+    color: white;
+    transform: scale(0.9) translateY(-6px);
+    
+}
+.feature{
+    padding: 10px 10% 50px;
+}
+.feature-content{
+    display: flex;
+    gap: 40px;
+    
+}
+.box{
+    padding: 15px 15px 15px 30px;
+    border-left: 4px solid black;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    transition: all .6s;
+}
+.f-icon{
+    font-size: 20px;
+}
+.f-text h3{
+    font-weight: 700;
+}
+.f-text p{
+    font-weight: 300;
+}
+.box:hover{
+    transform: scale(0.9) translateY(-4px);
+}
+hr{
+    margin-bottom: 50px;
+}
+.lpage{
+    background: rgb(255, 250, 238);
+    padding: 50px 10px 10px 80px;
+
+}
+.lpage-content{
+    display: flex;
+    gap: 400px;
+}
+.lpage1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.lpage1 h3{
+    font-size: 15px;
+}
+.lpage1 a{
+    font-size: 13px;
+}
+.follow a{
+    font-size: 20px;
+   padding: 10px;
+
+}
+.lpage1 h3{
+    margin-bottom: 15px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 5, 5);
+    background: beige;
+    padding: 5px;
 }
